@@ -1,0 +1,32 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&family=Poppins:wght@300&display=swap');
+
+h2 , b{
+  font-family: 'Courgette', cursive;
+}
+
+body {
+  background-color:#f8f8ff;
+  scroll-behavior: smooth;
+}
+
+
+h1 {
+  line-height: 80px;
+}
+#hero {
+  animation: updown 0.5s ease-in linear infinite;
+}
+
+@keyframes updown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
